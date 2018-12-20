@@ -1,0 +1,19 @@
+.product {
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+        border-color: #333;
+    }
+}
+
+.product__name {
+    font-family: Helvetica, sans-serif;
+}
+
+.product__add {
+    margin-top: 10px;
+}

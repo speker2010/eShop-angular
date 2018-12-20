@@ -1,0 +1,9 @@
+<a routerLink="/products/{{product.slug}}" class="product">
+  <img 
+    src="{{product.image.preview}}"
+    srcset="{{product.image.previewMidleRes}} x1.5 {{product.image.previewHiRes}} x2" 
+    alt="{{product.image.alt}}">
+  <div class="product__name">{{product.name}}</div>
+  <div class="product__price">{{product.price}}</div>
+  <button class="product__add">add to cart</button>
+</a>
