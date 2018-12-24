@@ -1,0 +1,8 @@
+<div class="slider">
+  <img src="{{images[currentSlide].preview}}" alt="">
+  <button class="slider__btn slider__btn_prev" (click)="prev()"><</button>
+  <button class="slider__btn slider__btn_next" (click)="next()">></button>
+  <div class="slider__dots">
+    <div *ngFor="let slide of images; index as i" class="dot" [class.dot_active]="i===currentSlide" (click)="goTo(i)"></div>
+  </div>
+</div>

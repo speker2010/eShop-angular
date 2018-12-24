@@ -1,0 +1,37 @@
+.slider {
+    position: relative;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.slider__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    &_prev {
+        left: 0;
+    }
+
+    &_next {
+        right: 0;
+    }
+}
+
+.dot {
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    &_active {
+        background: rosybrown;
+    }
+}

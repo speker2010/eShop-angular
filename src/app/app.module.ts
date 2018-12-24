@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductPreviewComponent } from './product-preview/product-preview.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
     ProductPreviewComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
